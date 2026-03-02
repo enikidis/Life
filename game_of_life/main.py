@@ -7,7 +7,7 @@ from game_of_life.viz import run_popup
 
 def main():
     # Grid settings
-    rows, cols = 100, 100
+    rows, cols = 1000, 1000
     rng = np.random.default_rng(0)
 
     # Choose one initial population:
